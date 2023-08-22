@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&family=Poppins:wght@400;500&family=Raleway&display=swap');
+
+:root{
+    --cor--menu: #000000;
+    --cor--fundo:#3f3e3e;
+    --cor--secundaria:#ffffff;
+    --cor--botao: #86196B;
+    --cor--botao--hover: #FFD4B2;
+
+    --font--primaria: 'Franklin Gothic Medium', sans-serif;
+    --font--secundaria: 'Raleway', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font--primaria);
+    background-color: var(--cor--fundo);
+    color: var(--cor--secundaria);
+}
