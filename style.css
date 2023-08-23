@@ -22,10 +22,10 @@ body{
    background-color: var(--cor--fundo);
 }
 .menu{
-    background-image: url(assets/backgroung.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,24 +33,40 @@ body{
     z-index: 1;
 }
 
+.menu__fundo{
+    background-image: url(assets/backgroung.png);
+    background-size: cover;
+    background-position: center center;
+    color: var(--cor--secundaria);
+    object-fit: contain;
+}
+.container{
+    height: 100vh;
+}
+
 .menu__logo{
     width: 100px;
-    height: 50px;
+    object-fit: contain;    
 }
 
 .menu__botao{
     justify-content: space-around;
-    gap: 30px;
+    gap: 40px;
     color: var(--cor--secundaria);
     font-family: var(--font--primaria);
     font-size: 24px;
 }
 .menu__botao__assinar{
     background-color: var(--cor--botao);
+    border: none;
+    padding: 15px;
 }
 .menu__botao__assinar:hover{
     background-color: var(--cor--botao--hover);
+    font-size: 28px;
 }
 .menu__botao__entrar:hover{
     background-color: var(--cor--botao--hover);
+    font-size: 28px;
+    padding: 15px;
 }
