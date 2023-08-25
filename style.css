@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&family=Poppins:wght@400;500&family=Raleway&display=swap');
 
 :root{
-    --cor--fundo: #00030c;
+    --cor--fundo: #040D12;
     --cor--secundaria:#ffffff;
-    --cor--botao: #86196B;
-    --cor--botao--hover: #FFD4B2;
+    --cor--terciaria: #;
+    --cor--botao: #2F4538;
+    --cor--botao--hover: #48584f, #ffffff;
 
-    --font--primaria: 'Franklin Gothic Medium', sans-serif;
+    --font--primaria: 'Nanum Gothic', sans-serif;
     --font--secundaria: 'Raleway', sans-serif;
 }
 
@@ -21,17 +22,6 @@ body{
    font-size: 100%;
    background-color: var(--cor--fundo);
 }
-.menu{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-}
 
 .menu__fundo{
     background-image: url(assets/backgroung.png);
@@ -43,7 +33,37 @@ body{
 .container{
     height: 100vh;
 }
-
+.conteudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.conteudo__botao__assinar{
+    background-image: linear-gradient(var(--cor--botao--hover));
+    color: var(--cor--secundaria);
+    border: none;
+    padding: 15px;
+    border-radius: 8%;
+    font-weight: 400;
+}
+.conteudo__botao__assinar:hover{
+    background: none;
+    border-style: solid;
+    border-width: 2px; 
+}
+.menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
 .menu__logo{
     width: 100px;
     object-fit: contain;    
@@ -51,22 +71,32 @@ body{
 
 .menu__botao{
     justify-content: space-around;
-    gap: 40px;
+    gap: 50px;
     color: var(--cor--secundaria);
     font-family: var(--font--primaria);
     font-size: 24px;
 }
 .menu__botao__assinar{
-    background-color: var(--cor--botao);
+    background-image: linear-gradient(var(--cor--botao--hover));
+    color: var(--cor--secundaria);
     border: none;
     padding: 15px;
+    border-radius: 8%;
+    font-weight: 400;
 }
 .menu__botao__assinar:hover{
-    background-color: var(--cor--botao--hover);
-    font-size: 28px;
+    background: none;
+    border-style: solid;
+    border-width: 2px;    
+
+}
+.menu__botao__entrar{
+    color: var(--cor--secundaria);
 }
 .menu__botao__entrar:hover{
-    background-color: var(--cor--botao--hover);
+    background-image: linear-gradient(var(--cor--botao--hover));
     font-size: 28px;
     padding: 15px;
+    border-radius: 10%;
 }
+
