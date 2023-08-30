@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&family=Poppins:wght@400;500&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&family=Poppins:wght@400;500&family=Raleway&family=Roboto:wght@400;700&display=swap');
 
 :root{
     --cor--fundo: #040D12;
     --cor--secundaria:#ffffff;
     --cor--terciaria: #;
-    --cor--botao: #2F4538;
-    --cor--botao--hover: #48584f, #ffffff;
+    --cor--botao: #00A99D;
+    --cor--botao--hover: #00A99D, #ffffff;
 
-    --font--primaria: 'Nanum Gothic', sans-serif;
+    --font--primaria: 'Roboto', sans-serif;
     --font--secundaria: 'Raleway', sans-serif;
 }
 
@@ -40,11 +40,23 @@ body{
     text-align: center;
     transform: translate(-50%, -50%);
 }
+.conteudo__titulo{
+    padding: 2%;
+    font-family: var(--font--primaria);
+    font-size: 30px;
+}
+.conteudo__texto{
+    padding: 2% 20% 5%;
+    font-family: var(--font--secundaria);
+    font-size: 20px;
+}
+
 .conteudo__botao__assinar{
+    font-family: var(--font--primaria);
     background-image: linear-gradient(var(--cor--botao--hover));
     color: var(--cor--secundaria);
     border: none;
-    padding: 15px;
+    padding: 10px;
     border-radius: 8%;
     font-weight: 400;
 }
@@ -77,6 +89,7 @@ body{
     font-size: 24px;
 }
 .menu__botao__assinar{
+    font-family: var(--font--primaria);
     background-image: linear-gradient(var(--cor--botao--hover));
     color: var(--cor--secundaria);
     border: none;
@@ -100,3 +113,17 @@ body{
     border-radius: 10%;
 }
 
+.corpo{
+    padding: 4%;
+    display: flex;
+}
+
+.corpo__titulo{
+    font-family: var(--font--primaria);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.corpo__valores{
+    padding: 10% 10% 10% 10%;
+}
