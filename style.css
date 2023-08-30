@@ -127,9 +127,18 @@ body{
     justify-content: center;
     font-size: 30px;
 }
-
+.corpo__valores{
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 70px;
+}
 .corpo__valores__mensais{
     font-family: var(--font--primaria);
     font-size: 20px;
-    flex-direction: row;
+    padding: 30px 30px;
+    border-radius: 10%;
+    border: solid var(--cor--botao);
 }
