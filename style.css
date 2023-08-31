@@ -5,7 +5,8 @@
     --cor--secundaria:#ffffff;
     --cor--terciaria: #;
     --cor--botao: #00A99D;
-    --cor--botao--hover: #00A99D, #ffffff;
+    --cor--botao--hover: #00A99D, #000000;
+    --cor--sombra: ;
 
     --font--primaria: 'Roboto', sans-serif;
     --font--secundaria: 'Raleway', sans-serif;
@@ -45,11 +46,13 @@ body{
     padding: 2%;
     font-family: var(--font--primaria);
     font-size: 30px;
+    color: var(--cor--secundaria);
 }
 .conteudo__texto{
     padding: 2% 20% 5%;
     font-family: var(--font--secundaria);
     font-size: 20px;
+    color: var(--cor--secundaria);
 }
 
 .conteudo__botao__assinar{
@@ -153,8 +156,13 @@ body{
     text-align: center;
 }
 
-.corpo__valores__strong{
+.corpo__valores__strong1{
+    font-size: 35px;
+}
+.corpo__valores__strong2{
     font-size: 40px;
+    color: var(--cor--botao);
+    text-shadow: var(--cor--secundaria);
 }
 
 .corpo__botao__assinar{
