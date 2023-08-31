@@ -176,8 +176,34 @@ body{
 .corpo__botao__assinar:hover{
     padding: 20px;
     font-size: 20px;
-
 }
+
+.corpo2{
+    display: flex;
+    flex-direction: column;
+}
+.corpo2__titulo{
+    font-family: var(--font--primaria);
+    color: var(--cor--secundaria);
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 30px;
+}
+.corpo2__conteudo{ 
+    color: var(--cor--secundaria);
+    font-family: var(--font--secundaria);
+    font-size: 20px;
+    text-align: left;
+}
+
+.corpo3{
+    color: var(--cor--secundaria);
+}
+
+.corpo4{
+    color: var(--cor--secundaria);
+}
+
 .rodape{
     display: flex;
     flex-direction: row;
