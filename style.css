@@ -141,9 +141,13 @@ body{
     gap: 30px ;
 }
 .corpo__valores__mensais{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
     font-family: var(--font--primaria);
     font-size: 15px;
-    padding: 50px 30px 100px 30px ;
+    padding: 60px;
     border-radius: 10%;
     border: solid var(--cor--botao);
     text-align: center;
@@ -163,7 +167,6 @@ body{
 }
 .corpo__botao__assinar:hover{
     padding: 20px;
-    border-radius: 8%;
     font-size: 20px;
 
 }
