@@ -6,7 +6,7 @@
     --cor--terciaria: #;
     --cor--botao: #00A99D;
     --cor--botao--hover: #00A99D, #000000;
-    --cor--sombra: ;
+    --cor--sombra: #383838;
 
     --font--primaria: 'Roboto', sans-serif;
     --font--secundaria: 'Raleway', sans-serif;
@@ -128,14 +128,14 @@ body{
 }
 
 .corpo__titulo{
-    padding: 2% 2%;
+    padding: 5% 0% 0% 0%;
     font-family: var(--font--primaria);
     justify-content: center;
-    font-size: 26px;
+    font-size: 30px;
     color: var(--cor--secundaria);
 }
 .corpo__valores{
-    padding: 2;
+    padding: 1px;
     color: var(--cor--secundaria);
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@ body{
 .corpo__valores__strong2{
     font-size: 40px;
     color: var(--cor--botao);
-    text-shadow: var(--cor--secundaria);
+    text-shadow: 2px 2px var(--cor--sombra);
 }
 
 .corpo__botao__assinar{
