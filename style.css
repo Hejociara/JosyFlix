@@ -29,6 +29,7 @@ body{
     background-position: center center;
     color: var(--cor--secundaria);
     object-fit: contain;
+    opacity: 0.5;
 }
 .container{
     height: 100vh;
@@ -127,7 +128,7 @@ body{
     padding: 2% 2%;
     font-family: var(--font--primaria);
     justify-content: center;
-    font-size: 28px;
+    font-size: 26px;
     color: var(--cor--secundaria);
 }
 .corpo__valores{
@@ -135,14 +136,14 @@ body{
     color: var(--cor--secundaria);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
-    gap: 40px;
+    gap: 30px ;
 }
 .corpo__valores__mensais{
     font-family: var(--font--primaria);
     font-size: 15px;
-    padding: 40px 40px 80px 20px ;
+    padding: 50px 30px 100px 30px ;
     border-radius: 10%;
     border: solid var(--cor--botao);
     text-align: center;
@@ -165,4 +166,11 @@ body{
     border-radius: 8%;
     font-size: 20px;
 
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    font-family: var(--font--secundaria);
 }
