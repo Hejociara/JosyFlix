@@ -212,6 +212,31 @@ body{
 
 .corpo2__dispositivos{
     display: flex;
+    flex-direction: column;
+    color: var(--cor--secundaria);
+    font-family: var(--font--primaria) ;
+}
+
+.corpo2__dispositivos__titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.corpo2__dispositivos__bloco__imagens{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.corpo2__dispositivos__imagens{
+    width: 100px;
+    height: 100px;
+}
+.corpo2__dispositivos__texto__imagem{
+    color: var(--cor--secundaria);
+
 }
 .rodape{
     display: flex;
