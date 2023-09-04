@@ -181,14 +181,15 @@ body{
     background: none;
     border-style: solid;
     border-width: 2px; 
-    height: 50px;
 }
 
 .corpo2{
     display: flex;
     flex-direction: column;
+    
 }
 .corpo2__titulo{
+    text-align: center;
     font-family: var(--font--primaria);
     color: var(--cor--secundaria);
     padding-top: 10%;
@@ -200,16 +201,18 @@ body{
     font-family: var(--font--secundaria);
     font-size: 20px;
     text-align: left;
+    padding-bottom: 5%;
 }
 
-.corpo3{
-    color: var(--cor--secundaria);
+.corpo2__icone{
+    align-items: center;
+    width: 10px;
+    height: 10px;
 }
 
-.corpo4{
-    color: var(--cor--secundaria);
+.corpo2__dispositivos{
+    display: flex;
 }
-
 .rodape{
     display: flex;
     flex-direction: row;
