@@ -189,9 +189,34 @@ body{
     border-width: 2px; 
 }
 .corpo2{
-    
+    font-family: var(--font--primaria);
 }
+.container__corpo2__titulo{
+    margin-top: 15%;
+    padding: 5% 0% 10% 0%;
+    font-family: var(--font--primaria);
+    justify-content: center;
+    font-size: 30px;
+}
+.container__corpo2__vantagens{
+    margin: 15px;
+    text-align: left;
 
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-family: var(--font--primaria);
+    margin-top: 15%;
+    padding: 5% 0% 10% 0%;
+}
+.dispositivos__lista{
+    display: flex; 
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
 .rodape{
     display: flex;
     flex-direction: row;
