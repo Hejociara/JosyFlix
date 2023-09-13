@@ -190,6 +190,7 @@ body{
 }
 .corpo2{
     font-family: var(--font--primaria);
+    margin-bottom: 5%;
 }
 .container__corpo2__titulo{
     margin-top: 15%;
@@ -201,10 +202,10 @@ body{
 .container__corpo2__vantagens{
     margin: 15px;
     text-align: left;
-
 }
 .dispositivos{
     text-align: center;
+    
 }
 .dispositivos__titulo{
     font-family: var(--font--primaria);
@@ -215,8 +216,8 @@ body{
     display: flex; 
     justify-content: center;
     list-style-type: none;
-    align-items: center;
 }
+
 .rodape{
     display: flex;
     flex-direction: row;
