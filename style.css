@@ -188,9 +188,8 @@ body{
     border-style: solid;
     border-width: 2px; 
 }
-.corpo2{
+.container__corpo2{
     font-family: var(--font--primaria);
-    margin-bottom: 5%;
 }
 .container__corpo2__titulo{
     margin-top: 15%;
@@ -205,7 +204,6 @@ body{
 }
 .dispositivos{
     text-align: center;
-    
 }
 .dispositivos__titulo{
     font-family: var(--font--primaria);
