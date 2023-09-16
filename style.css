@@ -218,8 +218,14 @@ body{
 
 .rodape{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     font-size: 14px;
     font-family: var(--font--secundaria);
+    background-color: var(--cor--sombra);
+}
+.rodape__autor{
+    font-size: var(--cor--secundaria);
+    text-align: center;
+    margin: 30px 30px;
 }
