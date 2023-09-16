@@ -216,7 +216,11 @@ body{
     list-style-type: none;
 }
 
+.pergunta{
+    font-family: var(--font--primaria);
+}
 .rodape{
+    color: var(--cor--secundaria);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,8 +228,13 @@ body{
     font-family: var(--font--secundaria);
     background-color: var(--cor--sombra);
 }
+
 .rodape__autor{
     font-size: var(--cor--secundaria);
     text-align: center;
     margin: 30px 30px;
+}
+
+.rodape__links{
+    font-family: var(--font--primaria);
 }
