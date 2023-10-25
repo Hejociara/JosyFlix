@@ -231,12 +231,24 @@ body{
 }
 .container__pergunta{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    background-color: var(--cor--sombra);
+    width: 900px;
 }
 .seta{
+    padding-right: 50px;
     height: 30px;
+    background-color: var(--cor--sombra);
 }
 
+#texto__escondido{
+    margin-top: 3px;
+    padding: 20px 10px;
+    background-color: var(--cor--sombra);
+    text-align: justify;
+}
 .rodape{
     color: var(--cor--secundaria);
     display: flex;
