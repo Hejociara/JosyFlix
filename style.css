@@ -193,7 +193,7 @@ body{
 }
 .container__corpo2__titulo{
     margin-top: 15%;
-    padding: 5% 0% 10% 0%;
+    padding: 5% 0% 40px 0%;
     font-family: var(--font--primaria);
     justify-content: center;
     font-size: 30px;
@@ -225,6 +225,18 @@ body{
 .pergunta{
     font-family: var(--font--primaria);
 }
+.container__corpo2__pergunta__frequente{
+    margin: 15px 250px;
+    text-align: left;
+}
+.container__pergunta{
+    display: flex;
+    justify-content: center;
+}
+.seta{
+    height: 30px;
+}
+
 .rodape{
     color: var(--cor--secundaria);
     display: flex;
